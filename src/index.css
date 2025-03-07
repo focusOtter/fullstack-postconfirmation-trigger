@@ -1,0 +1,5 @@
+@import 'tailwindcss';
+@import '@aws-amplify/ui-react/styles.css';
+@plugin "daisyui" {
+	themes: light --default, dark --prefersdark, cupcake, night;
+}
