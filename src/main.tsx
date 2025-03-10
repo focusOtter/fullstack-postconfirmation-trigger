@@ -7,7 +7,7 @@ import { SecondaryPage } from './pages/Secondary.tsx'
 import Navbar from './components/Navbar.tsx'
 import Footer from './components/Footer.tsx'
 import { Authenticator } from '@aws-amplify/ui-react'
-import { Protected } from './components/Protect.tsx'
+import { Protect } from './components/Protect.tsx'
 import ConfigureAmplify from './components/ConfigureAmplify.tsx'
 createRoot(document.getElementById('root')!).render(
 	<StrictMode>
@@ -20,9 +20,9 @@ createRoot(document.getElementById('root')!).render(
 					<Route
 						path="/secondary"
 						element={
-							<Protected>
+							<Protect>
 								<SecondaryPage />
-							</Protected>
+							</Protect>
 						}
 					/>
 				</Routes>

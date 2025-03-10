@@ -1,7 +1,7 @@
 import { SelectField } from '@aws-amplify/ui-react'
 import { Authenticator } from '@aws-amplify/ui-react'
 
-export function Protected({ children }: { children: React.ReactNode }) {
+export function Protect({ children }: { children: React.ReactNode }) {
 	const formFields = {
 		signUp: {
 			name: {

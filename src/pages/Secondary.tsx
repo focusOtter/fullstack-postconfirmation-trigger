@@ -26,5 +26,3 @@ export function SecondaryPage() {
 		</div>
 	)
 }
-
-export default SecondaryPage
